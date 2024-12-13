@@ -11,8 +11,9 @@
       padding: 0%;
       margin: 0%;
       box-sizing: border-box;
-      cursor: url(../images/logos/cursorlogo.png),auto !important;
+      cursor: url('../images/logos/cursorlogo.png'),auto !important;
   }
+  
   ::-webkit-scrollbar{
       width: 4px;
       color:#c70039;
