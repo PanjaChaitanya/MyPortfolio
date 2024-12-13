@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chaitanya Panja" />
+    <meta name="keywords"
+        content="Chaitanya Panja" />
+    <meta name="author" content="" />
+    <title>Chaitanya Panja - Portfolio Website </title>
+    <!--favicon-img-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!--favicon-img-->
+    <!--main css file should not be removed -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/custom-style.css"/>
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+    <!--contains all the div-->
+    <div id="all">
+        <!--mouse  follower-->
+        <div class="cursor"></div>
+        <!--loader-->
+        <div id="loader">
+            <span class="color">Chaitanya</span>Panja
+        </div>
+        <!--link-screen-->
+        <div id="breaker"></div>
+
+        <div id="breaker-two"></div>
+
+        <!--Main-Section-->
+        <!--Navigator-fullscreen-->
+
+        <div id="navigation-content">
+            <div class="logo">
+                <img src="images/logo.png" style="width:200px; height: 65px;" alt="logo">
+            </div>
+            <div class="navigation-close">
+                <span class="close-first"></span>
+                <span class="close-second"></span>
+            </div>
+            <div class="navigation-links">
+                <a href="" data-text="HOME" id="home-link">HOME</a>
+                <a href="#about" data-text="ABOUT" id="about-link">ABOUT</a>
+                <!-- <a href="#blog" data-text="BLOG" id="blog-link">BLOG</a> -->
+                <a href="#portfolio" data-text="PORTFOLIO" id="portfolio-link">PORTFOLIO</a>
+                <a href="#contact" data-text="CONTACT" id="contact-link">CONTACT</a>
+            </div>
+        </div>
+        <!--Navigator-Fullscreen END-->
+        <!--Home Page-->
+        <!--Menubar-->
+        <div id="navigation-bar">
+            <img src="images/logo.png" style="width:200px; height: 70px;" alt="logo">
+            <div class="menubar">
+                <span class="first-span"></span>
+                <span class="second-span"></span>
+                <span class="third-span"></span>
+            </div>
+        </div>
+        <!--Menubar End-->
+        <!--Header-->
+        <div id="header">
+            <div id="particles"></div>
+            <!--Social Media Links-->
+            <div class="social-media-links">
+                <a href="https://github.com/PanjaChaitanya">
+                    <img src="images/github.png" class="social-media" alt="Github">
+                </a>
+                <a href="https://www.linkedin.com/in/chaitanyapanja" target="_blank">
+                    <img src="images/linkedinlogo.png" class="social-media" alt="linkedin-logo">
+                </a>
+            </div>
+            <!--Social Media Links end-->
+            <div class="header-content">
+                <div class="header-content-box">
+                    <div class="firstline">Chaitanya <span class="color">Panja</span></div>
+                    <div class="secondline">
+                        I'm a
+                        <span class="txt-rotate color" data-period="1200"
+                            data-rotate='[ " Front-end Developer.", "  Web Developer.", " Free Lancer." ]'></span>
+                        <span class="slash">|</span>
+                        <p>Need a website? You need me. 😉</p>
+                    </div>
+                    <div class="contact">
+                        <a href="https://wa.me/+919059944125" target="_blank"><img src="images/mail.png" alt="email-pic"
+                                class="contactpic"></a>
+                        <a href="Tel:9059944125"><img src="images/phone.png" alt="phone-pic"
+                                class="contactpic"></a>
+                    </div>
+                </div>
+            </div>
+            <!--header image-->
+            <div class="header-image">
+                <!-- <img src="images/man.jpg" alt="logo"> -->
+            </div>
+            <!--header image end-->
+        </div>
+        <!--Header End-->
+        <!--HomePage End-->
+        <!--Main-Section End-->
+        <!--about-->
+        <div id="about">
+            <!--about content-->
+            <div id="about-content">
+                <div class="about-header">
+                    About <span class="color">Me</span>
+                    <span class="header-caption">Get to Know <span class="color"> me.</span></span>
+                </div>
+                <div class="about-main">
+                    <div class="about-first-paragraph wow">
+                        <!--about description-->
+                        <span class="about-first-line">
+                            I'm creative a
+                            <span class="color">web developer</span>
+                            based in Andhra Pradesh state , Bhimavaram </span>
+                        <br>
+                        <span class="about-second-line"> Hello! I'm Chaitanya Panja, a web developer and iam a fresher. 
+                            I specialize in creating complete and robust web applications, staying current with industry trends,
+                             and delivering innovative solutions that enhance user experience. Whether working solo or in a team, 
+                             I bring creativity, problem-solving skills, and collaboration to every project
+                        </span>
+                        <span class="about-second-line mt-4">Feel free to explore my portfolio to see the projects I've
+                            worked on, and don't hesitate to get in touch if you'd like to collaborate or learn more
+                            about my work.
+                        </span>
+                        <div class="cv">
+                            <a href="./ChaitanyaPanja_Resume.pdf" download>
+                                <button>Download <span class="colors">Resume</span></button>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <!--about picture-->
+                    <div class="about-img">
+                        <img src="images/mypic.jpg" style="height: 600px; width: 400px;" alt="Your Image">
+                    </div>
+                </div>
+            </div>
+            <!--services start-->
+            <div id="services">
+                <!--services header-->
+                <div class="services-heading wow">
+                    <span class="color">My</span> Services
+                </div>
+                <!--services header end-->
+                <!--services content-->
+                <div class="services-content">
+                    <div class="service service-one wow">
+                        <div class="service-img">
+                            <img src="images/logos/webdesign.png" alt="service-one">
+                        </div>
+                        <div class="service-description">
+                            <h2>Web Designing</h2>
+                            <p>I create visually appealing and user-friendly website designs that provide an optimal
+                                user experience. From wireframes to final design, I ensure that the design is aligned
+                                with the latest trends and technologies.</p>
+                        </div>
+                    </div>
+                    <div class="service service-two wow">
+                        <div class="service-img">
+                            <img src="images/logos/frontend.png" alt="service-two">
+                        </div>
+                        <div class="service-description">
+                            <h2>Front-End Development</h2>
+                            <p>I specialize in crafting responsive, high-performance front-end applications using modern
+                                frameworks like React, Angular, and Vue.js. My code is clean, maintainable, and adheres
+                                to best practices.</p>
+                        </div>
+                    </div>
+                    <div class="service service-three wow">
+                        <div class="service-img">
+                            <img src="images/logos/backend.png" alt="service-three">
+                        </div>
+                        <div class="service-description">
+                            <h2>Back-End Development</h2>
+                            <p>I develop robust and scalable back-end solutions using Node.js, Express, Django, and
+                                other server-side technologies. My services include database design, API development,
+                                and server management.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--services content end-->
+                <!--services end-->
+                <div id="skills">
+                    <div class="skills-header">
+                        My <span class="color"> Skills</span>
+                    </div>
+                    <div class="skills-content " style="text-align: center;">
+                        <div class="skill-html skill">
+                            <div class="skill-text">
+                                <div class="html">
+                                    Front-End
+                                </div>
+                            </div>
+                            <div class="html-prog wow prog">
+                                <div class="logos">
+                                    <div id="html"><img src="images/logos/html-5.png" alt="html-5">HTML</div>
+                                    <div id="css"><img src="images/logos/css.png" alt="css">CSS</div>
+                                    <div id="bootstrap"><img src="images/logos/bootstrap.png" alt="bootstrap">BOOTSTRAP</div>
+                                    <div id="react"><img src="images/logos/reactjs.png" alt="reactjs">REACT</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-html skill">
+                            <div class="skill-text">
+                                <div class="html">
+                                    Server
+                                </div>
+                            </div>
+                            <div class="html-prog wow prog">
+                                <div class="logos">
+                                    <div id="html"><img src="images/logos/nodejs.png" alt="html-5">Node JS</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-html skill">
+                            <div class="skill-text">
+                                <div class="html">
+                                    DataBase
+                                </div>
+                            </div>
+                            <div class="html-prog wow prog">
+                                <div class="logos">
+                                    <div id="html"><img src="images/logos/mysql.png" alt="html-5">My SQL</div>
+                                    <div id="css"><img src="images/logos/mongodb.png" alt="css">MongoDB</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-html skill">
+                            <div class="skill-text">
+                                <div class="html">
+                                    Tools
+                                </div>
+                            </div>
+                            <div class="html-prog wow prog">
+                                <div class="logos">
+                                    <div id="html"><img src="images/logos/postman.png" alt="html-5">Postman</div>
+                                    <div id="css"><img src="images/logos/git.png" alt="css">Git</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--copyright-section You Can Remove After Downloading-->
+                <div class="footer">
+                    <div class="footer-text">
+                        <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Chaitanya Panja
+                    </div>
+                </div>
+            </div>
+        </div>
+                <!--copyright-section-->
+    </div>
+    <!--===============----------portfolio-----------==============-->
+    <div id="portfolio">
+                <div class="portfolio-header">
+                    <span class="color">My</span> Portfolio
+                    <span class="header-caption">Some Of My <span class="color">Works</span></span>
+                </div>
+                <div id="portfolio-content">
+                    <div class="portfolio portfolio">
+                        <div class="portfolio-image">
+                            <img src="images/weatherProject.png" alt="Fi">
+                        </div>
+                        <div class="portfolio-text">
+                            <h2>Weather Application</h2>
+                            <p>A responsive web application that provides real-time weather updates and forecasts for multiple days. Built using HTML, CSS, JavaScript.Leverages the OpenWeather API to fetch weather data. Users can check current weather conditions as well as forecasts for the upcoming days. The application ensures a smooth and accessible experience on various devices through responsive design principles</p>
+                            <div class="button">
+                                <a href="https://chaitanya-weather-app.vercel.app/" target="_blank">
+                                    <button><span class="index">View Project <i class="gg-arrow-right"></i></span></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio portfolio-first">
+                        <div class="portfolio-image">
+                            <img src="images/colorfontpicker.png" alt="color-font-picker">
+                        </div>
+                        <div class="portfolio-text">
+                            <h2>Color Font Picker</h2>
+                            <p>An interactive web site that enables users to create custom text designs by choosing font colors, background shades, and adjusting text sizes. Users can easily apply different styling options to their text. After finalizing the design, users can download the styled text as an image. It is built with HTML, CSS, and JavaScript, offering a simple yet effective solution for personalized text and graphic creation.</p>
+                            <div class="button">
+                                <a href="https://chaitanya-color-font-picker.vercel.app/" target="_blank">
+                                <button><span class="index">View Project <i class="gg-arrow-right"></i></span></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio portfolio-second">
+                        <div class="portfolio-image">
+                            <img src="images/housie.png" alt="housie game">
+                        </div>
+                        <div class="portfolio-text">
+                            <h2>Housie Coin Picker</h2>
+                            <p>An interactive tool for Housie (Tambola) that highlights and marks coins as they are picked, displaying the selected coin number on the side for easy tracking. Built with HTML, CSS, and JavaScript, it simplifies game management and adds a modern touch to the classic gameplay.</p>
+                            <div class="button">
+                                <a href="https://landmarktutorial.com" target="_blank">
+                                    <button><span class="index">View Project <i class="gg-arrow-right"></i></span></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio portfolio-third">
+                        <div class="portfolio-image">
+                            <img src="images/swisscorp.png" alt="Swisscorpgroup">
+                        </div>
+                        <div class="portfolio-text">
+                            <h2>Swisscorpgroup</h2>
+                            <p>Swisscorpgroup is a corporate website designed to showcase the services and expertise of a leading global corporation. It features a modern design, detailed service descriptions, and case studies to highlight the company's achievements.</p>
+                            <div class="button">
+                                <a href="https://swisscorpgroup.com/" target="_blank">
+                                    <button><span class="index">View Project <i class="gg-arrow-right"></i></span></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!--copyright-section-->
+            <div class="footer">
+                <div class="footer-text">
+                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Chaitanya Panja
+                </div>
+            </div>
+            <!--copyright-section-->
+    </div>
+    <!--=================-------------- contact ------------================-->
+    <div id="contact">
+         <div class="contact-header">Contact <span class="color"> Me</span>
+        <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div></div>
+        <div class="contact-content">
+            <!--Contact form-->
+             <div class="contact-form">
+                 <div class="form-header">
+                     Message Me
+                 </div>
+                 <form id="myForm" action="#">
+                    <div class="input-line">
+                        <input id="name" type="text" placeholder="Name" class="input-name">
+                        <input id="email" type="email" placeholder="Email" class="input-name">
+                    </div>
+                    <input type="text" id="subject" placeholder="subject" class="input-subject">
+                    <textarea id="body" class="input-textarea" placeholder="message"></textarea>
+                    <button type="button" id="submit" value="send">Submit</button>
+                </form>
+             </div>
+            <!--Contact form-->
+            <!--Contact information-->
+             <div class="contact-info">
+                <div class="contact-info-header">
+                    Contact Info
+                </div>
+                <div class="contact-info-content">
+                <div class="contect-info-content-line">
+                    <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                    <div class="contact-info-icon-text">
+                        <h6>Name</h6>
+                        <p>Chaitanya Panja</p>
+                  </div>
+                </div>
+                <div class="contect-info-content-line">
+                  <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Location</h6>
+                      <p>Andhra Pradesh State, Bhimavaram</p>
+                </div>
+              </div>
+              <div class="contect-info-content-line">
+                  <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Call</h6>
+                      <p>+91 9059944125</p>
+                </div>
+              </div>
+              <div class="contect-info-content-line">
+                  <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Email</h6>
+                      <p>panjachaitanya23@gmail.com</p>
+                </div>
+              </div>
+                </div>
+            <!--Contact information end-->
+           </div>
+        </div>
+        <!--copyright-section -->
+        <div class="footer">
+            <div class="footer-text">
+                <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Chaitanya Panja
+            </div>
+        </div>
+       <!--copyright-section-->
+    </div>
+        <!--contact end-->
+    </div>
+    <script>
+        // Initialize EmailJS with the Public Key
+        emailjs.init("mZ7ToKGAYFVaRarfg"); // Replace with your Public Key
+
+        // Add event listener to the submit button
+        document.getElementById('submit').addEventListener('click', function() {
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const body = document.getElementById('body').value;
+
+            // Validate form fields
+            if (!name || !email || !subject || !body) {
+                alert('All fields are required!');
+                return;
+            }
+
+            // Send email using EmailJS
+            emailjs.send("service_chaitanya", "template_chaitanya", {
+                name: name,
+                from_email: email,
+                subject: subject,
+                message: body,
+            })
+            .then(function(response) {
+                alert('Email sent successfully!');
+                console.log('Success:', response.status, response.text);
+            })
+            .catch(function(error) {
+                alert('Failed to send email. Please try again later.');
+                console.error('Error:', error);
+            });
+        });
+    </script>
+    
+    
+    <!--all the divisions-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/index.js"></script>
+    <!--particles script-->
+    <script src="particles.js"></script>
+</body>
+</html>
